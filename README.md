@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Linux命令
 
-You can use the [editor on GitHub](https://github.com/dongfangyiyun/dongfangyiyun.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+------
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 1. 清屏
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+// 命令1
+> clear
+刷新屏幕，本质上只是让终端显示页向后翻了一页，如果向上滚动屏幕还可以看到之前的操作信息
+// 命令2
+> Ctrl+l
+小写的L，清屏的快捷键，效果同clear命令
+// 命令3
+> reset
+完全刷新终端屏幕，之前的终端输入操作信息将都会被清空，这样虽然比较清爽，但整个命令过程速度有点慢，使用较少。值得一提的是reset命令在你的终端控制错乱时非常有用。如输入字符不出现在光标的位置的情况。还有当你敲击回车键时，新提示符并没有出现在新行上而是出现在老提示符的前面。此时reset命令就能用来修正这些问题。
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dongfangyiyun/dongfangyiyun.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
